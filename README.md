@@ -19,17 +19,20 @@ This initial interaction point is crucial for beginning the analysis process.
 Visualization:
 
 Displays a pie chart that represents the percentage distribution of different types of attack vectors detected within the uploaded data.
-This visual helps in quickly identifying the most prevalent types of attacks that the organization is facing.
+This visual helps in quickly identifying the most prevalent types of attacks that the organization is facing.<br />
+
 3. Overall Threat Score
 Visualization:
 
 Shows a circular score gauge that indicates the overall threat level as a percentage. The current score is dynamically updated based on the analysis of the uploaded packet data.
-This component provides a snapshot of the current security status, highlighting the urgency and extent of potential threats.
+This component provides a snapshot of the current security status, highlighting the urgency and extent of potential threats.<br />
+
 4. Packet Types Graph
 Visualization:
 
 Presents a bar graph detailing the count of each type of attack packet detected.
-This graph provides insights into the frequency of specific attack types, helping to pinpoint areas where security measures may need to be reinforced.
+This graph provides insights into the frequency of specific attack types, helping to pinpoint areas where security measures may need to be reinforced.<br />
+
 5. Recommendations
 Functionality:
 
