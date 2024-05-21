@@ -6,7 +6,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
-    <div className="relative min-h-screen bg-no-repeat bg-cover" style={{ backgroundImage: "url('/homebg.jpeg')" }}>
+    <div className="relative min-h-screen bg-no-repeat bg-cover" style={{ backgroundImage: "url('/homebg.png')" }}>
       <Head>
         <title>Secure File Upload</title>
       </Head>
