@@ -71,7 +71,7 @@ const Dashboard = () => {
         </div>
         <div className="bg-blue-800 p-4 rounded-lg">
           <h2 className="text-white text-center mb-4 text-4xl">Packet types</h2>
-          <Bar data={barData} />
+          <Bar width={50} height={50} data={barData} />
         </div>
       </div>
       <div className="bg-blue-800 p-4 mt-8 rounded-lg">
