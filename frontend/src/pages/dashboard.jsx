@@ -42,12 +42,12 @@ const Dashboard = () => {
       </div>
       <div className="grid grid-cols-3 gap-4">
         <div className="bg-blue-800 p-4 rounded-lg flex flex-col items-center">
-          <h2 className="text-white mb-4">Score</h2>
+          <h2 className="text-white mb-20 text-4xl">Score</h2>
           <Box position="relative" display="inline-flex">
             <CircularProgress
               variant="determinate"
               value={68}
-              size={120}
+              size={300}
               thickness={4}
               sx={{ color: '#4CAF50' }}
             />
@@ -61,21 +61,21 @@ const Dashboard = () => {
               alignItems="center"
               justifyContent="center"
             >
-              <span className="text-white text-2xl">68%</span>
+              <span className="text-white text-4xl">68%</span>
             </Box>
           </Box>
         </div>
         <div className="bg-blue-800 p-4 rounded-lg">
-          <h2 className="text-white text-center mb-4">Attack Categories</h2>
+          <h2 className="text-white text-center mb-4 text-4xl">Attack Categories</h2>
           <Doughnut data={doughnutData} />
         </div>
         <div className="bg-blue-800 p-4 rounded-lg">
-          <h2 className="text-white text-center mb-4">Packet types</h2>
+          <h2 className="text-white text-center mb-4 text-4xl">Packet types</h2>
           <Bar data={barData} />
         </div>
       </div>
       <div className="bg-blue-800 p-4 mt-8 rounded-lg">
-        <h2 className="text-white mb-4">Recommendations</h2>
+        <h2 className="text-white mb-4 text-4xl">Recommendations</h2>
         {['Oliver Liam', 'Oliver Liam', 'Oliver Liam'].map((name, index) => (
           <div key={index} className="bg-blue-700 p-4 rounded-lg mb-2">
             <h3 className="text-white">{name}</h3>
